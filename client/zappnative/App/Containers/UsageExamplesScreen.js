@@ -9,7 +9,7 @@ import { Actions as NavigationActions } from 'react-native-router-flux'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import * as Animatable from 'react-native-animatable'
 // Enable when you have configured Xcode
-// import PushNotification from 'react-native-push-notification'
+import PushNotification from 'react-native-push-notification'
 import I18n from 'react-native-i18n'
 
 // Styles
