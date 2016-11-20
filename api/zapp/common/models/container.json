@@ -1,0 +1,36 @@
+{
+  "name": "container",
+  "plural": "containers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "size": {
+      "type": "number",
+      "required": true
+    },
+    "size_category": {
+      "type": "string",
+      "required": true
+    },
+    "stage": {
+      "type": "number",
+      "required": true
+    },
+    "load": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
