@@ -1,0 +1,26 @@
+import React from 'react'
+import { View, Text } from 'react-native'
+import styles from './Styles/ZappCalenderStyle'
+
+export default class ZappCalender extends React.Component {
+
+
+  render () {
+    return (
+      <View style={styles.container}>
+        <Text>ZappCalender Component</Text>
+      </View>
+    )
+  }
+}
+
+// // Prop type warnings
+// ZappCalender.propTypes = {
+//   someProperty: React.PropTypes.object,
+//   someSetting: React.PropTypes.bool.isRequired
+// }
+//
+// // Defaults for props
+// ZappCalender.defaultProps = {
+//   someSetting: false
+// }
